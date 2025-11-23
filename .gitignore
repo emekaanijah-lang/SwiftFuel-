@@ -1,3 +1,4 @@
+
 # Miscellaneous
 *.class
 *.log
@@ -5,41 +6,76 @@
 *.swp
 .DS_Store
 .atom/
-.build/
 .buildlog/
 .history
 .svn/
-.swiftpm/
-migrate_working_dir/
 
-# IntelliJ related
-*.iml
-*.ipr
-*.iws
-.idea/
-
-# The .vscode folder contains launch configuration and tasks you configure in
-# VS Code which you may wish to be included in version control, so this line
-# is commented out by default.
-#.vscode/
-
-# Flutter/Dart/Pub related
-**/doc/api/
-**/ios/Flutter/.last_build_id
+# Flutter/Dart
 .dart_tool/
+.flutter-plugins
 .flutter-plugins-dependencies
+.packages
 .pub-cache/
 .pub/
 /build/
-/coverage/
+/ios/Pods/
+/ios/.symlinks/
+/ios/Flutter/App.framework
+/ios/Flutter/Flutter.framework
+/ios/Flutter/engine
+/ios/Flutter/flutter_assets
+/ios/Flutter/pod_runner.xcconfig
+/ios/Runner/GeneratedPluginRegistrant.h
+/ios/Runner/GeneratedPluginRegistrant.m
+/ios/Runner.xcworkspace/xcshareddata/
+/ios/Runner.xcworkspace/xcuserdata/
+ios/Flutter/ephemeral/
+*.iml
+*.ipr
+*.iws
 
-# Symbolication related
-app.*.symbols
+# Android
+/android/app/src/main/assets/flutter_assets/
+/android/app/src/main/jniLibs/
+/android/app/src/main/res/merged/
+/android/app/src/main/res/stripped/
+/android/app/build/
+/android/app/build/outputs/
+/android/app/build/generated/
+/android/app/build/intermediates/
+/android/app/build/tmp/
+/android/.gradle/
+/android/build/
+/android/gradle.properties
+/android/local.properties
+/android/key.properties
+/android/captures/
+.gradle/
+*.keystore
+*.jks
 
-# Obfuscation related
-app.*.map.json
+# Web
+/web/
+/web/build/
+/web/packages/
 
-# Android Studio will place build artifacts here
-/android/app/debug
-/android/app/profile
-/android/app/release
+# Linux
+/linux/flutter/ephemeral
+/linux/flutter/generated_plugin_registrant.h
+/linux/flutter/generated_plugin_registrant.cc
+/linux/flutter/generated_plugins.cmake
+
+# macOS
+/macos/Flutter/ephemeral
+/macos/Flutter/GeneratedPluginRegistrant.h
+/macos/Flutter/GeneratedPluginRegistrant.m
+/macos/Flutter/Pods/
+
+# Windows
+/windows/flutter/ephemeral
+/windows/flutter/generated_plugin_registrant.h
+/windows/flutter/generated_plugin_registrant.cc
+/windows/flutter/generated_plugins.cmake
+
+# VS Code
+.vscode/
