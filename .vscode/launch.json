@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        
+
+        {
+            "name": "swift_fuel (mobile)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "debug"
+        },
+        {
+            "name": "swift_fuel (web)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "debug",
+            "deviceId": "web-server",
+            "args": [
+                "--web-port",
+                "9002",
+                "--web-hostname",
+                "0.0.0.0"
+            ]
+        }
+    ]
+}

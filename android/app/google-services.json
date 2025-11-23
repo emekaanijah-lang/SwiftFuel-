@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "193901969105",
+    "project_id": "swiftfuel-34ad5",
+    "storage_bucket": "swiftfuel-34ad5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:193901969105:android:551883eaabb41cd4174ff0",
+        "android_client_info": {
+          "package_name": "com.swiftfuel.androidapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0w4LLUKaFrD9nG8i4bR6Z814riqmHlLU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
